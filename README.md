@@ -19,15 +19,18 @@ final_project_deep_learning_sigma/
 │   ├── 1_Better_Model.ipynb                   # Experiment 1
 │   ├── 2_Better_Model.ipynb                   # Experiment 2
 │   ├── 3_Better_Model.ipynb                   # Experiment 3
-│   ├── Best_Model.ipynb                       # Final first best model 
+│   ├── Best_Model.ipynb                       # Final best model
 │   └── Test/
 │       └── Test_BestModel.ipynb               # Evaluation of the best model on test set
+├── transfer learning/
+│   └── detection_to_classifier.ipynb          # Transfer learning from detection to classification
 ├── results/
+│   ├── handmade_monochannel.pkt               # Saved full model for baseline (entire model object)
 │   ├── 0_better_model.pkt                     # Saved weights for experiment 0
 │   ├── 1_better_model.pkt                     # Saved weights for experiment 1
 │   ├── 2_better_model.pkt                     # Saved weights for experiment 2
 │   ├── 3_better_model.pkt                     # Saved weights for experiment 3
-│   └── ...
+│   └── best_model.pkt                         # Saved weights for the best model (state_dict)
 ├── project_report.pdf
 └── project_presentation.pdf
 ```
@@ -55,7 +58,15 @@ Download the `data` folder from Google Drive:
 
 Once downloaded, extract the folder but do not extract the `.zip` files inside it, the notebooks read from those zip files directly.
 
-### 3. Upload everything to Google Drive
+### 3. Download the results
+
+The results of the transfer learning is **not included** in the repository because they exceed GitHub's size limits.
+
+Download the weights from Google Drive:
+
+> https://drive.google.com/file/d/1bMmePCOloDrwsU9HlaaajbyHj128zvFa/view?usp=sharing 
+
+### 4. Upload everything to Google Drive
 
 Place both the cloned/downloaded repository folder and the `data` folder inside your Google Drive. The final structure on Drive should look like this:
 

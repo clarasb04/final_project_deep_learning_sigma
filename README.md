@@ -27,7 +27,7 @@ final_project_deep_learning_sigma/
 │   ├── 1_better_model.pkt                     # Saved weights for experiment 1
 │   ├── 2_better_model.pkt                     # Saved weights for experiment 2
 │   ├── 3_better_model.pkt                     # Saved weights for experiment 3
-│   └── 
+│   └── ...
 ├── project_report.pdf
 └── project_presentation.pdf
 ```

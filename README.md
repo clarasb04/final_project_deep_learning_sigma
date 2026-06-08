@@ -25,12 +25,12 @@ final_project_deep_learning_sigma/
 ├── transfer learning/
 │   └── detection_to_classifier.ipynb          # Transfer learning from detection to classification
 ├── results/
-│   ├── handmade_monochannel.pkt               # Saved full model for baseline (entire model object)
+│   ├── handmade_monochannel.pkt               # Saved full model for baseline 
 │   ├── 0_better_model.pkt                     # Saved weights for experiment 0
 │   ├── 1_better_model.pkt                     # Saved weights for experiment 1
 │   ├── 2_better_model.pkt                     # Saved weights for experiment 2
 │   ├── 3_better_model.pkt                     # Saved weights for experiment 3
-│   └── best_model.pkt                         # Saved weights for the best model (state_dict)
+│   └── best_model.pkt                         # Saved weights for the best model 
 ├── project_report.pdf
 └── project_presentation.pdf
 ```
